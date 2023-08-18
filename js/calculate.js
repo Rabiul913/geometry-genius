@@ -43,3 +43,7 @@ function calculateParallelogramArea(){
     const area= base * height;
     initialCalculateValue('parea-calculate',area);
 }
+
+function calculateEllipseArea(){
+    
+}

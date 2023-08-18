@@ -44,7 +44,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- 3st card -->
+                <!-- Parallelogram card -->
                 <div class="card card-compact bg-base-100 shadow-xl p-6">
                     <figure><img class="h-48" src="./images/parallelogram.png" alt="Parallelogram" /></figure>
                     <div class="card-body">
@@ -57,6 +57,22 @@
                         <p>Area: <span id="parea-calculate">00</span> cm<sup>2</sup></p>
                         <div class="card-actions">
                             <button class="btn btn-primary w-full" id="parallelogram-btn" onclick="calculateParallelogramArea()">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ellipse card -->
+                <div class="card card-compact bg-base-100 shadow-xl p-6">
+                    <figure><img class="h-48" src="./images/ellipse.png" alt="Parallelogram" /></figure>
+                    <div class="card-body">
+                        <h2 class="text-center font-bold text-3xl">Ellipse</h2>
+                        <p class="text-center">Area (A)= Πab</p>
+                        <div class="mx-auto py-2">
+                            <input type="text" class="border bg-gray-300 text-xl w-14 px-2" placeholder="large" id="major-field"><span class="px-2">cm</span>
+                            <input type="text" class="border bg-gray-300 text-xl w-14 px-2" placeholder="small" id="minor-field"><span class="px-2">cm</span>
+                        </div>
+                        <p>Area: <span id="earea-calculate">00</span> cm<sup>2</sup></p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary w-full" id="ellipse-btn" onclick="calculateEllipseArea()">Calculate</button>
                         </div>
                     </div>
                 </div>
